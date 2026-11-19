@@ -1,0 +1,32 @@
+body {
+    color: black;
+    background-color: antiquewhite;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+main {
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+
+hr.rounded {
+    border: none;
+    width: 2px;
+    background-color: burlywood;
+    border-radius: 999px;
+    padding-top: 100px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}

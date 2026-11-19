@@ -2,178 +2,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Gabriel R G</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
-<html>
-    <style>/* Stylesheet 4: */
-body {
-    font: 100% Courier New;
-    margin: 20px;
-    line-height: 26px;
-    background-color: #000000;
-}
-
-.container {
-    xmin-width: 900px;
-}
-
-.wrapper {
-    position: relative;
-    overflow: auto;
-}
-
-#top {
-    color: #84c754;
-    padding: 15px;
-}
-
-#main {
-    padding: 10px;
-    color: #84c754;
-}
-
-#sidebar {
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    padding: 10px;
-    width: 320px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    font-size: 80%;
-    line-height: 20px;
-}
-
-#bottom {
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    font-size: 70%;
-    line-height: 14px;
-}
-
-#top h1,#top p {
-    margin: 0;
-}
-
-.menuitem {
-    color: #84c754;
-    cursor: pointer;
-}
-
-.menuitem:nth-child(4) {
-    color:white;
-    font-weight:bold;
-}
-
-.menuitem:hover {
-    color: #ffffff;
-}
-
-a {
-    color: #ffffff;
-}
-
-a:hover {
-    color: #84c754;
-}
-@media (max-width: 600px) {
-    #sidebar {
-       width: auto;
-       margin-bottom:10px;        
-       position: relative;
-    }    
-}
-
-</style>
-<body style="background-color: darkslategrey; color: antiquewhite;">
+<html>  
+<body>
     <header>
         <h1>Home</h1>
     </header>
-    <main style="display: flex; flex-direction: row;">
 
-    
-    <aside> 
-        <img src="https://avatars.githubusercontent.com/u/173861059?v=4" alt="foto do Gab" width="300" style="border-radius:100%;">
-        <h1>Gabriel R G</h1>
-        <a href="https://github.com/gabseven" target="_blank">@GabSeven</a>
-        <div>
-            <h2>Informações de Contato</h2>
-        </div>
+    <main style="display: flex; flex-direction: row;   gap: 20px;">
+        <aside style="flex: 1; padding: 10px;"> 
+            <img src="https://avatars.githubusercontent.com/u/173861059?v=4" alt="foto do Gab" style="width: 100%; max-width: 300px; height: auto; border-radius: 100%;">
+            <h1>Gabriel R G</h1>
+            <a href="https://github.com/gabseven" target="_blank">@GabSeven</a>
+            <div>
+                <h4>Informações de Contato</h2>
+                <ul>
+                    <li><a href="https://instagram.com/gab_rodrikk" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-rod-gomes/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://judge.beecrowd.com/pt/profile/1165714" target="_blank">BeeCrowd</a></li>
+                    <li><a href="https://leetcode.com/u/GabSeven/" target="_blank">LeetCode</a></li>
+                    <li><a href="https://codeforces.com/profile/GabSeven" target="_blank">CodeForces</a></li>
+                </ul>
+            </div>
 
-    </aside>
-    <div>
+        </aside>
+        <hr class="rounded">
+        <div style="flex: 4; padding: 10px;">
 
-        <!-- Comentário teste 01-->
-        <p>
-            Olá, eu sou o Gabriel!
-            Atualmente sou graduando no terceiro ano em Bacharel
-            em Ciência da Computação na Universidade Estadual de Maringá (UEM).
-        </p>
-        <h2>Projetos</h2>
-        <h3>Alforria</h3>
-        <p>
-            O Alforria é um sistema para alocar os professores do Departamento de Matemática (DMA)
-            da UEM nas disciplinas de cada semestre. As regras do departamento, como carga horária,
-            preferências e choques de horário, são escritas como restrições de um modelo de otimização,
-            e um solver encontra uma alocação que as respeita.
-            Depois disso, o sistema também ajuda a gerenciar o resultado.
-            O projeto foi iniciado pelo professor Francisco Nogueira Sobral e por João Paulo Costalonga.
-            <br>
-            Durante 2 anos (2024-2026) fui bolsita pelo Programa de Iniciação Científica e Mestrado coordenado nacionalmente pelo IMPA.
-            Durante o Programa, orientado pelo professor Francisco Nogueira Sobral que me auxilou 
-            a dar continuidade ao Alforria.
-        </p>
-        <details>
-            <summary>Mais detalhes sobre o Alforria</summary>
+            <!-- Comentário teste 01-->
+            <p>
+                Olá, eu sou o Gabriel!
+                Atualmente sou graduando no terceiro ano em Bacharel
+                em Ciência da Computação na Universidade Estadual de Maringá (UEM).
+            </p>
+            <h2>Projetos</h2>
+            <h3>Alforria</h3>
+            <p>
+                O Alforria é um sistema para alocar os professores do Departamento de Matemática (DMA)
+                da UEM nas disciplinas de cada semestre. As regras do departamento, como carga horária,
+                preferências e choques de horário, são escritas como restrições de um modelo de otimização,
+                e um solver encontra uma alocação que as respeita.
+                Depois disso, o sistema também ajuda a gerenciar o resultado.
+                O projeto foi iniciado pelo professor Francisco Nogueira Sobral e por João Paulo Costalonga.
+                <br>
+                Durante 2 anos (2024-2026) fui bolsista pelo Programa de Iniciação Científica e Mestrado coordenado nacionalmente pelo IMPA.
+                Durante o Programa, orientado pelo professor Francisco Nogueira Sobral que me auxilou 
+                a dar continuidade ao Alforria.
+            </p>
+            <a href="./alforria.html">Mais detalhes sobre o Alforria</a>
+            <hr>
+            <h3>ProgComp</h3>
+            <p>
+                Projeto de Extensão 
+            </p>
+            <a href="./progcomp.html">Mais detalhes sobre o ProgComp</a>
+            <h3>IEEE</h3>
             
-            <h4>
-                Programação Linear
-            </h4>
-            <p>
-                O primeiro passo foi entender como funcionava a programação linear e o que era possível resolver com ela.
-                Com o livro Linear Programming and Network Flows de Bazaraa e Jarvis consegui visualizar situações reais
-                modeladas através da programação linear com a capacidade de encontrar soluções ótimas dada as restrições
-                dos problemas. Problemas como encontrar uma posição ótima de um maquinário numa fábrica, quantidade de 
-                cada ingrediente numa ração ou o melhor momento para financiar gastos de uma cidade, me ajudaram a 
-            </p>
-            <h4> Tradução</h4>
-            <p>
-                No primeiro ano, fiz a documentação e tradução de um modelagem matemática, previamente desenvolvida em MPL,
-                para a linguagem Julia, o que facilitou o entendimento da modelagem e possibilitou integrar mais fácil o modelo
-                com outras linguagens e tecnologias.
-                A modelagem envolve o problema de alocação dos professores voltada para a realidade do Departamento de Matemática (DMA) da UEM
-                com as condições sendo todas representadas por restrições no modelo.
-            </p>
-            <h4>
-                2º ano de projeto
-            </h4>
-            <p>
-                Na nova etapa do projeto, finalizei algumas pendências do ano anterior e iniciei uma aplicação web que ajudaria no gerenciamento
-                dos professores. O projeto seguiu para a organização dos scritps do Alforria para um pacote python. O projeto não foi finalizado
-                durante o 2o ano mas está sendo continuado no meu PIBITI
-            </p>
-        </details>
-        <hr>
-        <h3>ProgComp</h3>
-        <h3>IEEE</h3>
-        <h3>Bateria</h3>
-        <h3>Projetos das Disciplinas</h3>
-        
-    </div>
+            <h3>Bateria</h3>
+
+            <h3>Projetos das Disciplinas</h3>
+            
+        </div>
     </main>
     <footer>
-        <h2> Links Externos</h2>
-        <ul>
-            <li><a href="https://instagram.com/gab_rodrikk" target="_blank">Instagram</a></li>
-            <li>Linkedin</li>
-            <li>GitHub</li>
-            <li>BeeCrowd</li>
-        </ul>
-
+        <p id="repo-data"></p>
     </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
